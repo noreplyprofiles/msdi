@@ -46,12 +46,27 @@
 
 <body style="min-height: 762px;opacity: 1;">
     <header>
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-transparency" id="NavPC" style="background-color: #ffffff;height: 130px;">
+        <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button" id="NavMobile" style="background-color: rgb(255,255,255);">
+            <div class="container">
+                <div style="margin-left: 55px;"><a class="navbar-brand" href="home.html" style="font-family: LuloCleanW01-OneBold;color: rgb(0,0,0);">MSDI</a></div>
+                <div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav nav-right">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="home.html" style="font-family: 'Avenir LT Std';color: #000000;">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="about.html" style="font-family: 'Avenir LT Std';color: #000000;">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="programs.html" style="font-family: 'Avenir LT Std';color: #000000;">Programs</a></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="register.html" style="font-family: 'Avenir LT Std';color: #000000;">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-light navbar-expand-md fixed-top shadow-lg navbar-transparency" id="NavPC" style="background-color: #ffffff;height: 130px;">
             <div class="container">
                 <div><a class="navbar-brand" href="home.html" style="color: rgba(0,0,0,0.9);font-family: LuloCleanW01-OneBold;margin-left: 40px;">MSDI</a></div><button data-toggle="collapse" class="navbar-toggler text-left shadow" data-target="#navcol-1" style="color: rgba(0,0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #000000;"></span></button>
                 <div
-                    class="collapse navbar-collapse" id="navcol-1" style="height: 55px;background-color: #ffffff;">
-                    <ul class="nav navbar-nav ml-auto" style="background-color: #ffffff;">
+                    class="collapse navbar-collapse" id="navcol-1" style="height: 55px;">
+                    <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="home.html" style="font-family: 'Avenir LT Std';color: #000000;">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="about.html" style="color: #000000;font-family: 'Avenir LT Std';">About</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="programs.html" style="color: #000000;font-family: 'Avenir LT Std';">Programs</a></li>
@@ -61,33 +76,30 @@
             </div>
             </div>
         </nav>
-        <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button" id="NavMobile" style="background-color: rgb(255,255,255);">
-            <div class="container">
-                <div style="margin-left: 55px;"><a class="navbar-brand" href="home.html" style="font-family: LuloCleanW01-OneBold;color: rgb(0,0,0);">MSDI</a></div>
-                <div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav nav-right">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html" style="font-family: 'Avenir LT Std';color: #000000;">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="about.html" style="font-family: 'Avenir LT Std';color: #000000;">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="programs.html" style="font-family: 'Avenir LT Std';color: #000000;">Programs</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="register.html" style="font-family: 'Avenir LT Std';color: #000000;">Register</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
     </header>
-    <div data-bs-parallax-bg="true" id="MainCover" style="height: 846px;background-image: url(assets/img/resp-mainopac.png);background-position: center;background-size: cover;">
+    <div data-bs-parallax-bg="true" id="MainCover" style="height: 846px;background-image: url(assets/img/resp-mainopac.png);/*background-position: center;*/background-size: cover;">
         <div class="container">
-            <h1 data-aos="fade" data-aos-duration="1250" id="MissionSpeechAndDebateInstitute" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center;color: rgb(0,0,0);font-size: 44px;font-family: LuloCleanW01-OneBold;/*width: 759px;*/">register now</h1><a data-aos="fade" data-aos-duration="1250" id="SignUp" href="https://docs.google.com/forms/d/e/1FAIpQLSfV7VOK6r6-6NL-VOQsOYKjgXeTYLGRbRIDSDLJG8s-UwwnSw/viewform" style="font-size: 24px;padding-right: 39px;padding-left: 39px;font-family: Raleway, sans-serif;">SIGN UP</a></div>
+            <h1 data-aos="fade" data-aos-duration="1250" id="MissionSpeechAndDebateInstitute">Meet our coaches<br></h1>
+        </div>
     </div>
-    <footer style="background-color: rgb(0,0,0);margin-top: 0px;">
+    <section style="margin-top: 130px;">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: rgb(0,0,0);">
         <div class="row">
             <div class="col-sm-6 col-md-4 footer-navigation">
                 <h3 style="font-family: LuloCleanW01-OneBold;">MSDI</h3>
                 <p class="company-name" style="color: rgb(255,255,255);">MSJ Speech &amp; Debate © 2020</p>
             </div>
             <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><a href="https://goo.gl/maps/K9aZSGUJUad9Hket8" style="color: rgb(255,255,255);font-size: 14px;"><span class="fa fa-map-marker footer-contacts-icon" href="https://goo.gl/maps/K9aZSGUJUad9Hket8"> </span>41717 Palm Avenue</a></div>
+                <div><a href="https://goo.gl/maps/K9aZSGUJUad9Hket8" style="color: rgb(255,255,255);font-size: 14px;"><span class="fa fa-map-marker footer-contacts-icon"> </span>41717 Palm Avenue</a></div>
                 <div><a href="mailto:msjdebateofficers@gmali.com" target="_blank" style="color: rgb(255,255,255);font-size: 13px;"><i class="fa fa-envelope footer-contacts-icon"></i>msjdebateofficers@gmail.com</a></div>
             </div>
             <div class="clearfix"></div>
